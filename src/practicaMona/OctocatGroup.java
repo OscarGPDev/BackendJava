@@ -1,6 +1,6 @@
 package practicaMona;
 
-public class OctocatGroup extends Octocat {
+public abstract class OctocatGroup extends Octocat {
     private Octocat[] octocats;
 
     public OctocatGroup(String name, String description, String imageLink, boolean singleOctocat, Octocat[] octocats) {
