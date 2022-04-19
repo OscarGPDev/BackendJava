@@ -12,6 +12,7 @@ public class Main {
         for (Octocat octocat : octocats
              ) {
             System.out.println(octocat.fullData());
+            octocat.action();
             System.out.println("******************");
         }
     }
