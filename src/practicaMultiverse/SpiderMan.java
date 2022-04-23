@@ -37,4 +37,10 @@ public abstract class SpiderMan {
     public void setEarthName(String earthName) {
         this.earthName = earthName;
     }
+
+    public String spiderData() {
+        return "Spider Name: " + spiderName + "\n" +
+                "Real Name: " + realName + "\n" +
+                "Earth: " + earthName;
+    }
 }

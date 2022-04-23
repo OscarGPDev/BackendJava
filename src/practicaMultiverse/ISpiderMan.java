@@ -1,11 +1,20 @@
 package practicaMultiverse;
 
+import imonsh.Screen;
+
 public interface ISpiderMan {
     String[] powers = new String[]{
-            "Fuerza",
-            "Velocidad",
-            "Agilidad",
-            "Sentido de aracnido",
-            "Capacidad de rociar tela orgánica de sus manos",
-            "Adherirse a las paredes."};
+            "Force",
+            "Speed",
+            "Agility",
+            "Spider-sense",
+            "Spider-web(organic)",
+            "Cling to sheer walls or other solid surfaces.",
+            "Venom Blasts",
+            "Invisibility"
+    };
+
+    void describeSpiderPowers(Screen s);
+
+
 }
